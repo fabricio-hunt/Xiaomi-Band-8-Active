@@ -15,7 +15,7 @@
     height: auto;
 }
 
-.main-container section h2 {
+.main-container .section-1 h2 {
     font-family: "Roboto", sans-serif;
     font-weight: 400;
     font-style: normal;
@@ -25,7 +25,7 @@
     padding: 40px 5px 20px 5px;
 }
 
-.main-container section p {
+.main-container .section-1 p {
     font-family: "Roboto", sans-serif;
     font-weight: 400;
     font-style: normal;
@@ -33,7 +33,6 @@
     text-align: center;
     color:  #212529;
     padding: 2px;
-
 }  /* seção 1*/
 
 
@@ -54,7 +53,17 @@
 
 }
 
+.main-container .section-3{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    border: 9px solid green;
+}
 
+.main-container .section-3__texto{
+    background-color: #f5f5f5;
+    border: 5px solid blueviolet;
+}
 
 /* mobile*/
 
